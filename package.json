@@ -1,0 +1,17 @@
+{
+    "name": "issue-510",
+    "version": "0.0.0",
+    "description": "",
+    "main": "",
+    "scripts": {
+        "test": "npm run test-cjs && npm run test-esm",
+        "test-cjs": "node -r esm test-cjs",
+        "test-esm": "node -r esm test-esm"
+    },
+    "author": "",
+    "license": "",
+    "dependencies": {
+        "esm": "3.0.71",
+        "readable-stream": "2.3.6"
+    }
+}
