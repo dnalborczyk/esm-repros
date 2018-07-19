@@ -5,4 +5,4 @@ const { searchParams } = new URL(import.meta.url)
 
 const __filePath = searchParams.get('__filePath')
 
-assert('./templates/some.file')
+assert(__filePath === './templates/some.file')
