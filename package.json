@@ -4,9 +4,9 @@
     "description": "",
     "main": "",
     "scripts": {
-        "test": "npm run test-cjs && npm run test-esm",
-        "test-cjs": "node -r esm test-cjs",
-        "test-esm": "node -r esm test-esm"
+        "test": "npm run test-esm && npm run test-exp",
+        "test-esm": "node -r esm index.js",
+        "test-exp": "node --experimental-modules index.mjs"
     },
     "author": "",
     "license": "",
