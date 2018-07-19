@@ -1,5 +1,5 @@
 {
-    "name": "issue-510",
+    "name": "issue-512",
     "version": "0.0.0",
     "description": "",
     "main": "",
@@ -11,7 +11,6 @@
     "author": "",
     "license": "",
     "dependencies": {
-        "esm": "3.0.71",
-        "readable-stream": "2.3.6"
+        "esm": "3.0.71"
     }
 }
