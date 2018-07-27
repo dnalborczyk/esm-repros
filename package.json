@@ -1,0 +1,16 @@
+{
+  "name": "lab-esm",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -r esm ./node_modules/.bin/lab"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "code": "5.2.0",
+    "esm": "3.0.72",
+    "lab": "15.5.0"
+  }
+}
